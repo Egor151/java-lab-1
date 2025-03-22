@@ -304,7 +304,7 @@ public class Main {
         int number = 1;
 
         while(number != 0) {
-            System.out.print("Введите номер задачи 1 - 18 (0 - для выхода): ");
+            System.out.print("Введите номер задачи 1 - 15 (0 - для выхода): ");
             Scanner in = new Scanner(System.in);
             number = in.nextInt();
             switch (number) {
